@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC86CD3829EBA6F000EB8FBC /* BucketplaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD3729EBA6F000EB8FBC /* BucketplaceApp.swift */; };
+		EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD3929EBA6F000EB8FBC /* ContentView.swift */; };
+		EC86CD3C29EBA6F100EB8FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC86CD3B29EBA6F100EB8FBC /* Assets.xcassets */; };
+		EC86CD3F29EBA6F100EB8FBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC86CD3E29EBA6F100EB8FBC /* Preview Assets.xcassets */; };
+		EC86CD4929EBA6F100EB8FBC /* BucketplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD4829EBA6F100EB8FBC /* BucketplaceTests.swift */; };
+		EC86CD5329EBA6F100EB8FBC /* BucketplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD5229EBA6F100EB8FBC /* BucketplaceUITests.swift */; };
+		EC86CD5529EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC86CD4529EBA6F100EB8FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC86CD2C29EBA6F000EB8FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC86CD3329EBA6F000EB8FBC;
+			remoteInfo = Bucketplace;
+		};
+		EC86CD4F29EBA6F100EB8FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC86CD2C29EBA6F000EB8FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC86CD3329EBA6F000EB8FBC;
+			remoteInfo = Bucketplace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC86CD3429EBA6F000EB8FBC /* Bucketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bucketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC86CD3729EBA6F000EB8FBC /* BucketplaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceApp.swift; sourceTree = "<group>"; };
+		EC86CD3929EBA6F000EB8FBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC86CD3B29EBA6F100EB8FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC86CD3E29EBA6F100EB8FBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC86CD4429EBA6F100EB8FBC /* BucketplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketplaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC86CD4829EBA6F100EB8FBC /* BucketplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceTests.swift; sourceTree = "<group>"; };
+		EC86CD4E29EBA6F100EB8FBC /* BucketplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketplaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC86CD5229EBA6F100EB8FBC /* BucketplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceUITests.swift; sourceTree = "<group>"; };
+		EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC86CD3129EBA6F000EB8FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4129EBA6F100EB8FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4B29EBA6F100EB8FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC86CD2B29EBA6F000EB8FBC = {
+			isa = PBXGroup;
+			children = (
+				EC86CD3629EBA6F000EB8FBC /* Bucketplace */,
+				EC86CD4729EBA6F100EB8FBC /* BucketplaceTests */,
+				EC86CD5129EBA6F100EB8FBC /* BucketplaceUITests */,
+				EC86CD3529EBA6F000EB8FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC86CD3529EBA6F000EB8FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD3429EBA6F000EB8FBC /* Bucketplace.app */,
+				EC86CD4429EBA6F100EB8FBC /* BucketplaceTests.xctest */,
+				EC86CD4E29EBA6F100EB8FBC /* BucketplaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC86CD3629EBA6F000EB8FBC /* Bucketplace */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD3729EBA6F000EB8FBC /* BucketplaceApp.swift */,
+				EC86CD3929EBA6F000EB8FBC /* ContentView.swift */,
+				EC86CD3B29EBA6F100EB8FBC /* Assets.xcassets */,
+				EC86CD3D29EBA6F100EB8FBC /* Preview Content */,
+			);
+			path = Bucketplace;
+			sourceTree = "<group>";
+		};
+		EC86CD3D29EBA6F100EB8FBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD3E29EBA6F100EB8FBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC86CD4729EBA6F100EB8FBC /* BucketplaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD4829EBA6F100EB8FBC /* BucketplaceTests.swift */,
+			);
+			path = BucketplaceTests;
+			sourceTree = "<group>";
+		};
+		EC86CD5129EBA6F100EB8FBC /* BucketplaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD5229EBA6F100EB8FBC /* BucketplaceUITests.swift */,
+				EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */,
+			);
+			path = BucketplaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC86CD3329EBA6F000EB8FBC /* Bucketplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC86CD5829EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "Bucketplace" */;
+			buildPhases = (
+				EC86CD3029EBA6F000EB8FBC /* Sources */,
+				EC86CD3129EBA6F000EB8FBC /* Frameworks */,
+				EC86CD3229EBA6F000EB8FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bucketplace;
+			productName = Bucketplace;
+			productReference = EC86CD3429EBA6F000EB8FBC /* Bucketplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC86CD4329EBA6F100EB8FBC /* BucketplaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC86CD5B29EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "BucketplaceTests" */;
+			buildPhases = (
+				EC86CD4029EBA6F100EB8FBC /* Sources */,
+				EC86CD4129EBA6F100EB8FBC /* Frameworks */,
+				EC86CD4229EBA6F100EB8FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC86CD4629EBA6F100EB8FBC /* PBXTargetDependency */,
+			);
+			name = BucketplaceTests;
+			productName = BucketplaceTests;
+			productReference = EC86CD4429EBA6F100EB8FBC /* BucketplaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC86CD4D29EBA6F100EB8FBC /* BucketplaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC86CD5E29EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "BucketplaceUITests" */;
+			buildPhases = (
+				EC86CD4A29EBA6F100EB8FBC /* Sources */,
+				EC86CD4B29EBA6F100EB8FBC /* Frameworks */,
+				EC86CD4C29EBA6F100EB8FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC86CD5029EBA6F100EB8FBC /* PBXTargetDependency */,
+			);
+			name = BucketplaceUITests;
+			productName = BucketplaceUITests;
+			productReference = EC86CD4E29EBA6F100EB8FBC /* BucketplaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC86CD2C29EBA6F000EB8FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EC86CD3329EBA6F000EB8FBC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EC86CD4329EBA6F100EB8FBC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC86CD3329EBA6F000EB8FBC;
+					};
+					EC86CD4D29EBA6F100EB8FBC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EC86CD3329EBA6F000EB8FBC;
+					};
+				};
+			};
+			buildConfigurationList = EC86CD2F29EBA6F000EB8FBC /* Build configuration list for PBXProject "Bucketplace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC86CD2B29EBA6F000EB8FBC;
+			productRefGroup = EC86CD3529EBA6F000EB8FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC86CD3329EBA6F000EB8FBC /* Bucketplace */,
+				EC86CD4329EBA6F100EB8FBC /* BucketplaceTests */,
+				EC86CD4D29EBA6F100EB8FBC /* BucketplaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC86CD3229EBA6F000EB8FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC86CD3F29EBA6F100EB8FBC /* Preview Assets.xcassets in Resources */,
+				EC86CD3C29EBA6F100EB8FBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4229EBA6F100EB8FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4C29EBA6F100EB8FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC86CD3029EBA6F000EB8FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */,
+				EC86CD3829EBA6F000EB8FBC /* BucketplaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4029EBA6F100EB8FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC86CD4929EBA6F100EB8FBC /* BucketplaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86CD4A29EBA6F100EB8FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC86CD5529EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift in Sources */,
+				EC86CD5329EBA6F100EB8FBC /* BucketplaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC86CD4629EBA6F100EB8FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC86CD3329EBA6F000EB8FBC /* Bucketplace */;
+			targetProxy = EC86CD4529EBA6F100EB8FBC /* PBXContainerItemProxy */;
+		};
+		EC86CD5029EBA6F100EB8FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC86CD3329EBA6F000EB8FBC /* Bucketplace */;
+			targetProxy = EC86CD4F29EBA6F100EB8FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC86CD5629EBA6F100EB8FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC86CD5729EBA6F100EB8FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC86CD5929EBA6F100EB8FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bucketplace/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.Bucketplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC86CD5A29EBA6F100EB8FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bucketplace/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.Bucketplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC86CD5C29EBA6F100EB8FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.BucketplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bucketplace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bucketplace";
+			};
+			name = Debug;
+		};
+		EC86CD5D29EBA6F100EB8FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.BucketplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bucketplace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bucketplace";
+			};
+			name = Release;
+		};
+		EC86CD5F29EBA6F100EB8FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.BucketplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bucketplace;
+			};
+			name = Debug;
+		};
+		EC86CD6029EBA6F100EB8FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.BucketplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bucketplace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC86CD2F29EBA6F000EB8FBC /* Build configuration list for PBXProject "Bucketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86CD5629EBA6F100EB8FBC /* Debug */,
+				EC86CD5729EBA6F100EB8FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC86CD5829EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "Bucketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86CD5929EBA6F100EB8FBC /* Debug */,
+				EC86CD5A29EBA6F100EB8FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC86CD5B29EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "BucketplaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86CD5C29EBA6F100EB8FBC /* Debug */,
+				EC86CD5D29EBA6F100EB8FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC86CD5E29EBA6F100EB8FBC /* Build configuration list for PBXNativeTarget "BucketplaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86CD5F29EBA6F100EB8FBC /* Debug */,
+				EC86CD6029EBA6F100EB8FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC86CD2C29EBA6F000EB8FBC /* Project object */;
+}
