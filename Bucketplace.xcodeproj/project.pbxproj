@@ -14,6 +14,12 @@
 		EC86CD4929EBA6F100EB8FBC /* BucketplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD4829EBA6F100EB8FBC /* BucketplaceTests.swift */; };
 		EC86CD5329EBA6F100EB8FBC /* BucketplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD5229EBA6F100EB8FBC /* BucketplaceUITests.swift */; };
 		EC86CD5529EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */; };
+		ECD8511E29EE3383003C434F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8511D29EE3383003C434F /* Home.swift */; };
+		ECD8512029EE34C2003C434F /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8511F29EE34C2003C434F /* Social.swift */; };
+		ECD8512229EE34F9003C434F /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512129EE34F9003C434F /* Shopping.swift */; };
+		ECD8512429EE3507003C434F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512329EE3507003C434F /* Profile.swift */; };
+		ECD8512829EE373E003C434F /* Life.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512729EE373E003C434F /* Life.swift */; };
+		ECD8512A29EE3AC9003C434F /* TabIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512929EE3AC9003C434F /* TabIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		EC86CD4E29EBA6F100EB8FBC /* BucketplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketplaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC86CD5229EBA6F100EB8FBC /* BucketplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceUITests.swift; sourceTree = "<group>"; };
 		EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketplaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECD8511D29EE3383003C434F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ECD8511F29EE34C2003C434F /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		ECD8512129EE34F9003C434F /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		ECD8512329EE3507003C434F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		ECD8512729EE373E003C434F /* Life.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life.swift; sourceTree = "<group>"; };
+		ECD8512929EE3AC9003C434F /* TabIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,8 @@
 		EC86CD3629EBA6F000EB8FBC /* Bucketplace */ = {
 			isa = PBXGroup;
 			children = (
+				EC86CD6129EBAA9400EB8FBC /* Views */,
 				EC86CD3729EBA6F000EB8FBC /* BucketplaceApp.swift */,
-				EC86CD3929EBA6F000EB8FBC /* ContentView.swift */,
 				EC86CD3B29EBA6F100EB8FBC /* Assets.xcassets */,
 				EC86CD3D29EBA6F100EB8FBC /* Preview Content */,
 			);
@@ -125,6 +137,28 @@
 				EC86CD5429EBA6F100EB8FBC /* BucketplaceUITestsLaunchTests.swift */,
 			);
 			path = BucketplaceUITests;
+			sourceTree = "<group>";
+		};
+		EC86CD6129EBAA9400EB8FBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC86CD3929EBA6F000EB8FBC /* ContentView.swift */,
+				ECD8512529EE350B003C434F /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECD8512529EE350B003C434F /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				ECD8511D29EE3383003C434F /* Home.swift */,
+				ECD8512129EE34F9003C434F /* Shopping.swift */,
+				ECD8512329EE3507003C434F /* Profile.swift */,
+				ECD8512729EE373E003C434F /* Life.swift */,
+				ECD8511F29EE34C2003C434F /* Social.swift */,
+				ECD8512929EE3AC9003C434F /* TabIcon.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD8512A29EE3AC9003C434F /* TabIcon.swift in Sources */,
+				ECD8512029EE34C2003C434F /* Social.swift in Sources */,
+				ECD8512429EE3507003C434F /* Profile.swift in Sources */,
 				EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */,
+				ECD8511E29EE3383003C434F /* Home.swift in Sources */,
 				EC86CD3829EBA6F000EB8FBC /* BucketplaceApp.swift in Sources */,
+				ECD8512229EE34F9003C434F /* Shopping.swift in Sources */,
+				ECD8512829EE373E003C434F /* Life.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
