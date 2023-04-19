@@ -11,10 +11,26 @@ private let duration = 3.0
 private let imageWidth = CGFloat(1024)
 private let imageHeight = CGFloat(303)
 
-struct HomeBanner: View {
-    private let urls = ["https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145641307903151.png?w=1024", "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145651166363548.png?w=850", "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145644534192675.png?w=850"]
-    private var urlArray: [String] {
-        var res : [String] = []
+struct Banners: View {
+    private let urls = [
+        BannerModel(
+            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145641307903151.png?w=1024",
+            url: "https://store.ohou.se/exhibitions/10716?affect_type=Home&affect_id=0",
+            title: "Gift&Event ~72% | 오늘의 집 쇼핑"
+        ),
+        BannerModel(
+            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145651166363548.png?w=850",
+            url: "https://store.ohou.se/exhibitions/10731?affect_type=Home&affect_id=0",
+            title: "삼성전자 온갖스토어 ~40% | 오늘의 집 쇼핑"
+        ),
+        BannerModel(
+            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145644534192675.png?w=850",
+            url: "https://store.ohou.se/exhibitions/10687?affect_type=Home&affect_id=0",
+            title: "봄에는 캠핑을 떠나요! 봄&캠핑 ~79% | 오늘의 집 쇼핑"
+        )
+    ]
+    private var urlArray: [BannerModel] {
+        var res : [BannerModel] = []
         res.append(contentsOf: urls)
         res.append(contentsOf: urls)
         res.append(contentsOf: urls)
@@ -36,15 +52,9 @@ struct HomeBanner: View {
             ZStack(alignment: .bottomTrailing) {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 0) {
-                        ForEach(urlArray, id: \.self) { url in
-                            AsyncImage(url: URL(string: url)) { image in
-                                image
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: geo.size.width, height: geo.size.width * (imageHeight / imageWidth))
-                            } placeholder: {
-                                Color.gray
-                            }
+                        ForEach(urlArray, id: \.url) { banner in
+                            BannerItem(banner: banner)
+                                .frame(width: geo.size.width, height: geo.size.width * (imageHeight / imageWidth))
                         }
                     }
                     .offset(x: contentOffsetX, y: 0)
@@ -66,7 +76,7 @@ struct HomeBanner: View {
                 .background(Color(white: 0, opacity: 0.7))
                 .cornerRadius(20)
                 .bold()
-                .offset(x: -10, y: -10)
+                .offset(x: -35, y: -15)
             }
             .gesture(
                 DragGesture()
@@ -87,7 +97,6 @@ struct HomeBanner: View {
                 index += 1
             }
         }
-        .cornerRadius(10)
         .aspectRatio(imageWidth/imageHeight, contentMode: .fit)
     }
     
@@ -104,8 +113,8 @@ struct HomeBanner: View {
     }
 }
 
-struct HomeBanner_Previews: PreviewProvider {
+struct Banners_Previews: PreviewProvider {
     static var previews: some View {
-        HomeBanner()
+        Banners()
     }
 }
