@@ -36,6 +36,8 @@
 		ECD8515429EFE40D003C434F /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8515329EFE40D003C434F /* BannerModel.swift */; };
 		ECD8516E29F03623003C434F /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8516D29F03623003C434F /* BannerViewModel.swift */; };
 		ECD8517329F03734003C434F /* bannerData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD8517229F03734003C434F /* bannerData.json */; };
+		ECD8517529F0386B003C434F /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD8517429F0386B003C434F /* categoryData.json */; };
+		ECD8517729F03873003C434F /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8517629F03873003C434F /* CategoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		ECD8515329EFE40D003C434F /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
 		ECD8516D29F03623003C434F /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
 		ECD8517229F03734003C434F /* bannerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bannerData.json; sourceTree = "<group>"; };
+		ECD8517429F0386B003C434F /* categoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
+		ECD8517629F03873003C434F /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +232,7 @@
 		ECD8516C29F0361A003C434F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				ECD8517629F03873003C434F /* CategoryViewModel.swift */,
 				ECD8516D29F03623003C434F /* BannerViewModel.swift */,
 			);
 			path = ViewModels;
@@ -236,6 +241,7 @@
 		ECD8517129F0372C003C434F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ECD8517429F0386B003C434F /* categoryData.json */,
 				ECD8517229F03734003C434F /* bannerData.json */,
 			);
 			path = Resources;
@@ -346,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC86CD3F29EBA6F100EB8FBC /* Preview Assets.xcassets in Resources */,
+				ECD8517529F0386B003C434F /* categoryData.json in Resources */,
 				ECD8517329F03734003C434F /* bannerData.json in Resources */,
 				EC86CD3C29EBA6F100EB8FBC /* Assets.xcassets in Resources */,
 			);
@@ -376,6 +383,7 @@
 				ECD8515029EFE37D003C434F /* BannerWebView.swift in Sources */,
 				ECD8513329EE4CB4003C434F /* Bookmark.swift in Sources */,
 				ECD8512029EE34C2003C434F /* Social.swift in Sources */,
+				ECD8517729F03873003C434F /* CategoryViewModel.swift in Sources */,
 				ECD8512429EE3507003C434F /* Profile.swift in Sources */,
 				ECD8514829EFD459003C434F /* RecommendModel.swift in Sources */,
 				EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */,

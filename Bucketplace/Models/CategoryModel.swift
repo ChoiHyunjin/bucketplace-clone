@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct CategoryModel {
+struct CategoryModel: Decodable, Identifiable {
+    var id: Int
     var image: String
     var label: String
 }
