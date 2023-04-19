@@ -76,7 +76,6 @@ struct Banners: View {
             )
             .onAppear {
                 viewWidth = geo.size.width
-                index = viewModel.banners.count
             }
             .onReceive(timer) { _ in
                 index += 1
