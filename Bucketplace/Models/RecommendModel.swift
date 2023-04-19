@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct RecommendModel {
-    var id: String
+struct RecommendModel: Decodable, Identifiable {
+    var id: Int
     var image: String
     var title: String
     var headerTitle: String?
