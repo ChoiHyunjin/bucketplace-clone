@@ -44,7 +44,7 @@ struct Recommends: View {
                 .padding(.horizontal, 5)
             LazyVGrid(columns: columns, spacing: 10) {
                 ForEach(recommends, id: \.id) { item in
-                    Recommend(recommend: item)
+                    RecommendItem(recommend: item)
                         .padding(5)
                 }
             }

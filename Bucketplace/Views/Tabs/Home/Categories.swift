@@ -18,7 +18,7 @@ struct Categories: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 0) {
                 ForEach(categories, id: \.label) { category in
-                    Category(category: category)
+                    CategoryItem(category: category)
                 }
             }
         }
