@@ -27,6 +27,10 @@
 		ECD8513A29EFCAEB003C434F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8513929EFCAEB003C434F /* Categories.swift */; };
 		ECD8513C29EFCB59003C434F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8513B29EFCB59003C434F /* Category.swift */; };
 		ECD8514129EFCBA3003C434F /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8514029EFCBA3003C434F /* CategoryModel.swift */; };
+		ECD8514429EFD356003C434F /* Recommends.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8514329EFD356003C434F /* Recommends.swift */; };
+		ECD8514629EFD411003C434F /* Recommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8514529EFD411003C434F /* Recommend.swift */; };
+		ECD8514829EFD459003C434F /* RecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8514729EFD459003C434F /* RecommendModel.swift */; };
+		ECD8514A29EFDB32003C434F /* Seperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8514929EFDB32003C434F /* Seperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		ECD8513929EFCAEB003C434F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		ECD8513B29EFCB59003C434F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		ECD8514029EFCBA3003C434F /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		ECD8514329EFD356003C434F /* Recommends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommends.swift; sourceTree = "<group>"; };
+		ECD8514529EFD411003C434F /* Recommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommend.swift; sourceTree = "<group>"; };
+		ECD8514729EFD459003C434F /* RecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendModel.swift; sourceTree = "<group>"; };
+		ECD8514929EFDB32003C434F /* Seperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seperator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +180,7 @@
 				ECD8513829EFCADF003C434F /* Home */,
 				ECD8512129EE34F9003C434F /* Shopping.swift */,
 				ECD8512329EE3507003C434F /* Profile.swift */,
+				ECD8514929EFDB32003C434F /* Seperator.swift */,
 				ECD8512729EE373E003C434F /* Life.swift */,
 				ECD8511F29EE34C2003C434F /* Social.swift */,
 				ECD8512929EE3AC9003C434F /* TabIcon.swift */,
@@ -186,6 +195,8 @@
 				ECD8513629EE55A1003C434F /* HomeBanner.swift */,
 				ECD8513929EFCAEB003C434F /* Categories.swift */,
 				ECD8513B29EFCB59003C434F /* Category.swift */,
+				ECD8514329EFD356003C434F /* Recommends.swift */,
+				ECD8514529EFD411003C434F /* Recommend.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -194,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD8514029EFCBA3003C434F /* CategoryModel.swift */,
+				ECD8514729EFD459003C434F /* RecommendModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,12 +344,16 @@
 				ECD8513329EE4CB4003C434F /* Bookmark.swift in Sources */,
 				ECD8512029EE34C2003C434F /* Social.swift in Sources */,
 				ECD8512429EE3507003C434F /* Profile.swift in Sources */,
+				ECD8514829EFD459003C434F /* RecommendModel.swift in Sources */,
 				EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */,
 				ECD8511E29EE3383003C434F /* Home.swift in Sources */,
 				EC86CD3829EBA6F000EB8FBC /* BucketplaceApp.swift in Sources */,
 				ECD8512229EE34F9003C434F /* Shopping.swift in Sources */,
+				ECD8514429EFD356003C434F /* Recommends.swift in Sources */,
 				ECD8513129EE469F003C434F /* Cart.swift in Sources */,
+				ECD8514A29EFDB32003C434F /* Seperator.swift in Sources */,
 				ECD8512829EE373E003C434F /* Life.swift in Sources */,
+				ECD8514629EFD411003C434F /* Recommend.swift in Sources */,
 				ECD8513729EE55A1003C434F /* HomeBanner.swift in Sources */,
 				ECD8514129EFCBA3003C434F /* CategoryModel.swift in Sources */,
 				ECD8512E29EE4214003C434F /* SearchInput.swift in Sources */,

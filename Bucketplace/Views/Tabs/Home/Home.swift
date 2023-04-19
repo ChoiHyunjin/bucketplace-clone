@@ -29,7 +29,10 @@ struct Home: View {
                 Categories()
                     .padding(.top, 10)
                     .padding(.horizontal, 10)
+                    .padding(.bottom, 20)
                 
+                Seperator()
+                Recommends()
                 Text("Home")
             }
         }
