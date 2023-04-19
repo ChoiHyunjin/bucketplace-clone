@@ -24,7 +24,11 @@ struct Home: View {
             
             ScrollView {
                 HomeBanner()
-                    .padding()
+                    .padding(.top, 10)
+                    .padding(.horizontal, 20)
+                Categories()
+                    .padding(.top, 10)
+                    .padding(.horizontal, 10)
                 
                 Text("Home")
             }
