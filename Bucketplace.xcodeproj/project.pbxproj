@@ -20,6 +20,10 @@
 		ECD8512429EE3507003C434F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512329EE3507003C434F /* Profile.swift */; };
 		ECD8512829EE373E003C434F /* Life.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512729EE373E003C434F /* Life.swift */; };
 		ECD8512A29EE3AC9003C434F /* TabIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512929EE3AC9003C434F /* TabIcon.swift */; };
+		ECD8512E29EE4214003C434F /* SearchInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8512D29EE4214003C434F /* SearchInput.swift */; };
+		ECD8513129EE469F003C434F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8513029EE469F003C434F /* Cart.swift */; };
+		ECD8513329EE4CB4003C434F /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8513229EE4CB4003C434F /* Bookmark.swift */; };
+		ECD8513729EE55A1003C434F /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8513629EE55A1003C434F /* HomeBanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		ECD8512329EE3507003C434F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		ECD8512729EE373E003C434F /* Life.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life.swift; sourceTree = "<group>"; };
 		ECD8512929EE3AC9003C434F /* TabIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIcon.swift; sourceTree = "<group>"; };
+		ECD8512D29EE4214003C434F /* SearchInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInput.swift; sourceTree = "<group>"; };
+		ECD8513029EE469F003C434F /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		ECD8513229EE4CB4003C434F /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		ECD8513629EE55A1003C434F /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +150,11 @@
 		EC86CD6129EBAA9400EB8FBC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ECD8512D29EE4214003C434F /* SearchInput.swift */,
 				EC86CD3929EBA6F000EB8FBC /* ContentView.swift */,
 				ECD8512529EE350B003C434F /* Tabs */,
+				ECD8513029EE469F003C434F /* Cart.swift */,
+				ECD8513229EE4CB4003C434F /* Bookmark.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD8511D29EE3383003C434F /* Home.swift */,
+				ECD8513629EE55A1003C434F /* HomeBanner.swift */,
 				ECD8512129EE34F9003C434F /* Shopping.swift */,
 				ECD8512329EE3507003C434F /* Profile.swift */,
 				ECD8512729EE373E003C434F /* Life.swift */,
@@ -292,13 +304,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD8512A29EE3AC9003C434F /* TabIcon.swift in Sources */,
+				ECD8513329EE4CB4003C434F /* Bookmark.swift in Sources */,
 				ECD8512029EE34C2003C434F /* Social.swift in Sources */,
 				ECD8512429EE3507003C434F /* Profile.swift in Sources */,
 				EC86CD3A29EBA6F000EB8FBC /* ContentView.swift in Sources */,
 				ECD8511E29EE3383003C434F /* Home.swift in Sources */,
 				EC86CD3829EBA6F000EB8FBC /* BucketplaceApp.swift in Sources */,
 				ECD8512229EE34F9003C434F /* Shopping.swift in Sources */,
+				ECD8513129EE469F003C434F /* Cart.swift in Sources */,
 				ECD8512829EE373E003C434F /* Life.swift in Sources */,
+				ECD8513729EE55A1003C434F /* HomeBanner.swift in Sources */,
+				ECD8512E29EE4214003C434F /* SearchInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
