@@ -8,33 +8,29 @@
 import SwiftUI
 
 struct Home: View {
-    var test = false
     var body: some View {
-        NavigationView {
-            VStack {
-                HStack(spacing: 0) {
-                    SearchInput()
-                    
-                    Bookmark()
-                        .frame(width: 38, height: 42)
-                    Cart()
-                        .frame(width: 38, height: 42)
-                }
-                .padding(.leading, 20)
-                .padding(.trailing, 10)
+        VStack {
+            HStack(spacing: 0) {
+                SearchInput()
                 
-                ScrollView {
-                    Banners()
-                        .padding(.top, 10)
-                    Categories()
-                        .padding(.top, 10)
-                        .padding(.horizontal, 10)
-                        .padding(.bottom, 20)
-                    
-                    Seperator()
-                    Recommends()
-                    Text("Home")
-                }
+                Bookmark()
+                    .frame(width: 38, height: 42)
+                Cart()
+                    .frame(width: 38, height: 42)
+            }
+            .padding(.leading, 20)
+            .padding(.trailing, 10)
+            
+            ScrollView {
+                Banners()
+                    .padding(.top, 10)
+                Categories()
+                    .padding(.top, 10)
+                    .padding(.horizontal, 10)
+                    .padding(.bottom, 20)
+                
+                Seperator()
+                Recommends()
             }
         }
     }
