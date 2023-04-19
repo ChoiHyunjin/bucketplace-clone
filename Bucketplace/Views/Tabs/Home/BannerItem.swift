@@ -30,6 +30,7 @@ struct BannerItem: View {
 struct BannerItem_Previews: PreviewProvider {
     static var previews: some View {
         BannerItem(banner: BannerModel(
+            id: 0,
             image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145641307903151.png?w=1024",
             url: "https://store.ohou.se/exhibitions/10716?affect_type=Home&affect_id=0"))
     }

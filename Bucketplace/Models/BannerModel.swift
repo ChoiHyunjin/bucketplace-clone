@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct BannerModel {
+struct BannerModel: Decodable, Identifiable {
+    var id: Int
     var image: String
     var url: String
     var title = ""

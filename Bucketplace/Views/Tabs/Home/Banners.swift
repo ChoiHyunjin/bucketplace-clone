@@ -12,28 +12,13 @@ private let imageWidth = CGFloat(1024)
 private let imageHeight = CGFloat(303)
 
 struct Banners: View {
-    private let urls = [
-        BannerModel(
-            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145641307903151.png?w=1024",
-            url: "https://store.ohou.se/exhibitions/10716?affect_type=Home&affect_id=0",
-            title: "Gift&Event ~72% | 오늘의 집 쇼핑"
-        ),
-        BannerModel(
-            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145651166363548.png?w=850",
-            url: "https://store.ohou.se/exhibitions/10731?affect_type=Home&affect_id=0",
-            title: "삼성전자 온갖스토어 ~40% | 오늘의 집 쇼핑"
-        ),
-        BannerModel(
-            image: "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145644534192675.png?w=850",
-            url: "https://store.ohou.se/exhibitions/10687?affect_type=Home&affect_id=0",
-            title: "봄에는 캠핑을 떠나요! 봄&캠핑 ~79% | 오늘의 집 쇼핑"
-        )
-    ]
+    @ObservedObject var viewModel = BannerViewModel()
+    
     private var urlArray: [BannerModel] {
         var res : [BannerModel] = []
-        res.append(contentsOf: urls)
-        res.append(contentsOf: urls)
-        res.append(contentsOf: urls)
+        res.append(contentsOf: viewModel.banners)
+        res.append(contentsOf: viewModel.banners)
+        res.append(contentsOf: viewModel.banners)
         
         return res
     }
@@ -63,9 +48,9 @@ struct Banners: View {
                 
                 HStack {
                     HStack(spacing: 0) {
-                        Text("\((index % urls.count)+1)")
+                        Text("\((index % viewModel.banners.count)+1)")
                             .foregroundColor(.white)
-                        Text(" / \(urls.count)")
+                        Text(" / \(viewModel.banners.count)")
                             .foregroundColor(Color(red: 1, green: 1, blue: 1, opacity: 0.5))
                     }
                     Image(systemName: "plus")
@@ -91,7 +76,7 @@ struct Banners: View {
             )
             .onAppear {
                 viewWidth = geo.size.width
-                index = urls.count
+                index = viewModel.banners.count
             }
             .onReceive(timer) { _ in
                 index += 1
@@ -101,8 +86,8 @@ struct Banners: View {
     }
     
     private func scrollToCurrentPage() {
-        if index < urls.count || index >= urls.count*2 {
-            let current = (index % urls.count) + urls.count
+        if index < viewModel.banners.count || index >= viewModel.banners.count*2 {
+            let current = (index % viewModel.banners.count) + viewModel.banners.count
             contentOffsetX = -viewWidth * CGFloat(current)
             index = current
         }

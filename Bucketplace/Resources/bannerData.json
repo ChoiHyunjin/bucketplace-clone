@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "image": "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145641307903151.png?w=1024",
+        "url": "https://store.ohou.se/exhibitions/10716?affect_type=Home&affect_id=0",
+        "title": "Gift&Event ~72% | 오늘의 집 쇼핑"
+    },
+    {
+        "id": 1,
+        "image": "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145651166363548.png?w=850",
+        "url": "https://store.ohou.se/exhibitions/10731?affect_type=Home&affect_id=0",
+        "title": "삼성전자 온갖스토어 ~40% | 오늘의 집 쇼핑"
+    },
+    {
+        "id": 2,
+        "image": "https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/home_banner/168145644534192675.png?w=850",
+        "url": "https://store.ohou.se/exhibitions/10687?affect_type=Home&affect_id=0",
+        "title": "봄에는 캠핑을 떠나요! 봄&캠핑 ~79% | 오늘의 집 쇼핑"
+    }
+]
